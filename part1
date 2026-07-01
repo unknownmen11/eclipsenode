@@ -14,12 +14,7 @@ sh -c "$(curl -sSfL https://release.solana.com/v1.17.9/install)"
 
 export PATH="/root/.local/share/solana/install/active_release/bin:$PATH"
 
-solana-keygen new
-
-
-
-
-
+solana-keygen 
 NODE_MAJOR=18 
 
 sudo apt-get update
